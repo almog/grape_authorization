@@ -5,8 +5,10 @@ A Rails-API application (based on [this tutorial](http://www.sitepoint.com/build
 I created this app to test different authorization libraries such as [CanCan(Can)](https://github.com/CanCanCommunity/cancancan), [Pundit](elabs/pundit) and [the_role](the-teacher/the_role).
 
 ### Usage
-Start a server:
+Running
 ```
+bundle install
+rake db:migrate
 rails s
 ```
 
